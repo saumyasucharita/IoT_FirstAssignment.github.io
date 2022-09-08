@@ -1,4 +1,4 @@
-Connect to home Wi-fi network
+**Connect to home Wi-fi network**
 
 1. When the mini router is powered up, you can see the SSID name that you set up initially(Step-4 in README.md).
 2. Connect to that network using the password which you set up.
