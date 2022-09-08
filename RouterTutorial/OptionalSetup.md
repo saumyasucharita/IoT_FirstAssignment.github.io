@@ -7,3 +7,4 @@ Connect to home Wi-fi network
 4. Enter the password set for your wi-fi.
 5. Click join.
 6. You are successfully connected now.
+![Home Network](https://github.com/saumyasucharita/IoT_FirstAssignment.github.io/blob/main/RouterTutorial/image/HomeNetwork.jpeg)
