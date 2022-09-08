@@ -13,3 +13,4 @@ Tutorial to set up the mini smart router
 7. On the self-registration page, fill in the required details like Your Name, Mobile Phone Number, Mobile carrier, Email address and then click on Register.
 8. The password is sent to your mobile via text message. Use this password and your username(your email-address) to log in.
 9. You are connected to the internet now.
+![Successful Connection](https://github.com/saumyasucharita/IoT_FirstAssignment.github.io/blob/main/RouterTutorial/image/Successful_Connection.jpeg)
