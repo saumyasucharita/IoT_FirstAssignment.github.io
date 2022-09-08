@@ -1,4 +1,4 @@
-Tutorial to set up the mini smart router
+**Tutorial to set up the mini smart router**
 
 1. When the mini router is powered up, it will broadcast a Wi-fi signal with SSID: GL-MT300N-V2-xxx as written on the box of the router.
 2. Use the default Wifi password, which is also printed on the bottom of the router to connect to the Wifi network.
