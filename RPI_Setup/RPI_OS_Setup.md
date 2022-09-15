@@ -82,3 +82,6 @@ Challenges:
 
 I am using a 64 GB micro SD card. I was a little apprehensive if the 64 GB SD would work or not because as per Professor’s prerequisite, 
 the maximum being used is 32 GB. But I was successfully able to install the dietPi using the 64 GB card.
+
+Help links:
+
