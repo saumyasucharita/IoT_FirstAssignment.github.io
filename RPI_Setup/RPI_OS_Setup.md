@@ -1,12 +1,12 @@
 **Raspberry PI set up via wifi**
 
-**Laptop information**
+**Laptop information**<br />
 System manufacturer: Dell Inc<br />
 System Model: XPS 13 7390<br />
 OS Name: Microsoft Windows 10 Home<br />
 Having micro SD card slot<br />
 
-**Router information**
+**Router information**<br />
 Type: Travel Router<br />
 Brand:	GL.iNet<br />
 Model Name:	GL-MT300N-V2<br />
@@ -18,7 +18,7 @@ Operating System:	OpenWrt<br />
 Number of Ports:	2<br />
 Data Transfer Rate:	300 Megabytes Per Second<br />
 
-**Device information**
+**Device information**<br />
 Brand:	Raspberry<br />
 Ram Memory Installed Size:	2 GB<br />
 Memory Storage Capacity:	2 GB<br />
