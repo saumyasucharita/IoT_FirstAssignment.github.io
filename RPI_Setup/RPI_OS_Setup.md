@@ -33,9 +33,9 @@ Micro SD card slot for loading operating system and data storage<br />
 **Steps to set up DietPI image on Raspberry PI**
 
 1. Download the below before class:
-  &nbspi) BreeZip extractor as I have a windows laptop.
-  &nbspii) BalenaEtcher
-  &nbspiii) DietPI ARMv8 64-bit image using the download link:
+  i) BreeZip extractor as I have a windows laptop.
+  ii) BalenaEtcher
+  iii) DietPI ARMv8 64-bit image using the download link:
   https://dietpi.com/downloads/images/DietPi_RPi-ARMv8-Bullseye.7z
 
 2. Extract the DietPi_RPi-ARMv8-Bullseye.7z using BreeZip extractor.
