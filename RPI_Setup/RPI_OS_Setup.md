@@ -51,19 +51,19 @@ Micro SD card slot for loading operating system and data storage<br />
 5. A separate drive(E drive in my case) was accessible in my computer from which I could access the SD card contents. 
   Copy the dietpi.txt and dietpi-wifi.txt to a separate location on the computer.
 6. Edit the dietpi-wifi.txt with the router SSID and credentials( as shown on the Wireless tab of the router’s admin panel).
-7. Edit the dietpi.txt with the location and wi-fi default settings. For the East coast US, the below variables need to be changed:
-  i) AUTO_SETUP_LOCALE=en_US.UTF-8
-  ii) AUTO_SETUP_KEYBOARD_LAYOUT=us
-  iii) AUTO_SETUP_TIMEZONE=America/New_York
-  iv) AUTO_SETUP_NET_ETHERNET_ENABLED=0
-  v) AUTO_SETUP_NET_WIFI_ENABLED=1
-  vi) AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
-  vii) AUTO_SETUP_DHCP_TO_STATIC=1
-  viii) AUTO_SETUP_NET_HOSTNAME=DietPi_{YOUR_INITIALS}
-  ix) AUTO_SETUP_HEADLESS=1
-  x) AUTO_SETUP_AUTOSTART_TARGET_INDEX=1
-  xi) SURVEY_OPTED_IN=0
-  xii) CONFIG_SERIAL_CONSOLE_ENABLE=1
+7. Edit the dietpi.txt with the location and wi-fi default settings. For the East coast US, the below variables need to be changed:<br />
+  i) AUTO_SETUP_LOCALE=en_US.UTF-8<br />
+  ii) AUTO_SETUP_KEYBOARD_LAYOUT=us<br />
+  iii) AUTO_SETUP_TIMEZONE=America/New_York<br />
+  iv) AUTO_SETUP_NET_ETHERNET_ENABLED=0<br />
+  v) AUTO_SETUP_NET_WIFI_ENABLED=1<br />
+  vi) AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US<br />
+  vii) AUTO_SETUP_DHCP_TO_STATIC=1<br />
+  viii) AUTO_SETUP_NET_HOSTNAME=DietPi_{YOUR_INITIALS}<br />
+  ix) AUTO_SETUP_HEADLESS=1<br />
+  x) AUTO_SETUP_AUTOSTART_TARGET_INDEX=1<br />
+  xi) SURVEY_OPTED_IN=0<br />
+  xii) CONFIG_SERIAL_CONSOLE_ENABLE=1<br />
 8. Replace the dietpi-wifi.txt and dietpi.txt in the SD card drive with the modified files.
 9. Take the SD card out from the laptop.
 10. Insert the SD card into the Raspberry Pi and power it up using the power cord provided with the PI. 
