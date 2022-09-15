@@ -100,7 +100,7 @@ https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0
 https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135918693094
 
 Additional tests:<br/>
-I tried to establish and SCP connection between my desktop and the Pi but the connection was not successful. I believe this may be due to absence of
+I tried to establish an SCP connection between my desktop and the Pi but the connection was not successful. I believe this may be due to absence of
 any files in the Pi.<br/>
 ![SCP](/RPI_Setup/image/SCP.JPG)
 
