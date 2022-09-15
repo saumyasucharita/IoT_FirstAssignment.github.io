@@ -85,6 +85,9 @@ Diet PI Config Menu<br/>
 Succesful connection established<br/>
 ![successful](/RPI_Setup/image/ConnectionSuccessful.png)
 
+Reference:<br/>
+https://github.com/pschragger/IOT_Tutorials_for_VU/tree/main/RPI_BOOT_WIFI_tutorial
+
 Challenges:
 
 I am using a 64 GB micro SD card. I was a little apprehensive if the 64 GB SD would work or not because as per Professor’s prerequisite, 
