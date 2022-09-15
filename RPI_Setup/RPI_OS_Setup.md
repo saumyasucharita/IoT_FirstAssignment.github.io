@@ -40,30 +40,30 @@ Micro SD card slot for loading operating system and data storage<br />
 
 2. Extract the DietPi_RPi-ARMv8-Bullseye.7z using BreeZip extractor.
 3. Insert the micro SD card into the micro SD drive.
-4. Using BalenaEtcher, flash the DietPi image onto the SD card.
-  1. Open BalenaEtcher.
-  2. Select Flash from file.
-  3. Select the dietpi image from your computer.
-  4. Select target(the inserted card).
-  5. Press flash.
-  6. Wait until flashing is finished.
-  7. Close BalenaEtcher.
+4. Using BalenaEtcher, flash the DietPi image onto the SD card.<br />
+  i) Open BalenaEtcher.<br />
+  ii) Select Flash from file.<br />
+  iii) Select the dietpi image from your computer.<br />
+  iv) Select target(the inserted card).<br />
+  v) Press flash.<br />
+  vi) Wait until flashing is finished.<br />
+  vii) Close BalenaEtcher.<br />
 5. A separate drive(E drive in my case) was accessible in my computer from which I could access the SD card contents. 
   Copy the dietpi.txt and dietpi-wifi.txt to a separate location on the computer.
 6. Edit the dietpi-wifi.txt with the router SSID and credentials( as shown on the Wireless tab of the router’s admin panel).
 7. Edit the dietpi.txt with the location and wi-fi default settings. For the East coast US, the below variables need to be changed:
-  1. AUTO_SETUP_LOCALE=en_US.UTF-8
-  2. AUTO_SETUP_KEYBOARD_LAYOUT=us
-  3. AUTO_SETUP_TIMEZONE=America/New_York
-  4. AUTO_SETUP_NET_ETHERNET_ENABLED=0
-  5. AUTO_SETUP_NET_WIFI_ENABLED=1
-  6. AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
-  7. AUTO_SETUP_DHCP_TO_STATIC=1
-  8. AUTO_SETUP_NET_HOSTNAME=DietPi_{YOUR_INITIALS}
-  9. AUTO_SETUP_HEADLESS=1
-  10. AUTO_SETUP_AUTOSTART_TARGET_INDEX=1
-  11. SURVEY_OPTED_IN=0
-  12. CONFIG_SERIAL_CONSOLE_ENABLE=1
+  i) AUTO_SETUP_LOCALE=en_US.UTF-8
+  ii) AUTO_SETUP_KEYBOARD_LAYOUT=us
+  iii) AUTO_SETUP_TIMEZONE=America/New_York
+  iv) AUTO_SETUP_NET_ETHERNET_ENABLED=0
+  v) AUTO_SETUP_NET_WIFI_ENABLED=1
+  vi) AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
+  vii) AUTO_SETUP_DHCP_TO_STATIC=1
+  viii) AUTO_SETUP_NET_HOSTNAME=DietPi_{YOUR_INITIALS}
+  ix) AUTO_SETUP_HEADLESS=1
+  x) AUTO_SETUP_AUTOSTART_TARGET_INDEX=1
+  xi) SURVEY_OPTED_IN=0
+  xii) CONFIG_SERIAL_CONSOLE_ENABLE=1
 8. Replace the dietpi-wifi.txt and dietpi.txt in the SD card drive with the modified files.
 9. Take the SD card out from the laptop.
 10. Insert the SD card into the Raspberry Pi and power it up using the power cord provided with the PI. 
