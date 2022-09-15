@@ -77,6 +77,7 @@ Micro SD card slot for loading operating system and data storage<br />
   where, IPADDR is the IP address copied from Clients page.
 13. The PI will start installing a lot of updates for about 2-3 minutes after which it disconnects the ssh connection.
 14. Log in once again into the PI. This time you will be able to change the default password for ‘root’ and ‘dietpi’ users.
+[successful](/RPI_Setup/image/ConnectionSuccessful.png)
 
 Challenges:
 
