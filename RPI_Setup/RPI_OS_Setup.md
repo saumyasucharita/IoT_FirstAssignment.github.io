@@ -67,16 +67,20 @@ Micro SD card slot for loading operating system and data storage<br />
 8. Replace the dietpi-wifi.txt and dietpi.txt in the SD card drive with the modified files.
 9. Take the SD card out from the laptop.
 10. Insert the SD card into the Raspberry Pi and power it up using the power cord provided with the PI. 
-  Red light will turn on and the green light will start flashing. (It flashed nearly for 10 minutes in my case after which it stopped flashing.)
+  Red light will turn on and the green light will start flashing. (It flashed nearly for 10 minutes in my case after which it stopped flashing.)<br/>
 11. Then check the Clients tab in the router’s admin panel. You could see a new device DietPi connected to the network. Copy its IP address.
+  ![DietPIonRoutersAdmin](/RPI_Setup/image/DietPIonRoutersAdmin.png)
 12. Use SSH to login into PI using the below command in your command prompt:
 
   ssh root@IPADDR
   password: dietpi (default password)
 
-  where, IPADDR is the IP address copied from Clients page.
-13. The PI will start installing a lot of updates for about 2-3 minutes after which it disconnects the ssh connection.
-14. Log in once again into the PI. This time you will be able to change the default password for ‘root’ and ‘dietpi’ users.
+  where, IPADDR is the IP address copied from Clients page.<br/>
+13. The PI will start installing a lot of updates for about 2-3 minutes after which it disconnects the ssh connection.<br/>
+![Installing updates](/RPI_Setup/image/Update installs.png)<br/>
+14. Log in once again into the PI. This time you will be able to change the default password for ‘root’ and ‘dietpi’ users.<br/>
+![password_reset](/RPI_Setup/image/Password reset.png)<br/>
+![SSHConnectionDietPI](/RPI_Setup/image/SSHConnectionDietPI.png)<br/>
 ![successful](/RPI_Setup/image/ConnectionSuccessful.png)
 
 Challenges:
