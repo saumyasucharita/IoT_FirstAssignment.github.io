@@ -1,41 +1,41 @@
 **Raspberry PI set up via wifi**
 
 **Laptop information**
-System manufacturer: Dell Inc
-System Model: XPS 13 7390
-OS Name: Microsoft Windows 10 Home
-Having micro SD card slot
+System manufacturer: Dell Inc<br />
+System Model: XPS 13 7390<br />
+OS Name: Microsoft Windows 10 Home<br />
+Having micro SD card slot<br />
 
 **Router information**
-Type: Travel Router
-Brand:	GL.iNet
-Model Name:	GL-MT300N-V2
-Wireless Communication Standard:	802.11n
-Compatible Devices:	Laptop
-Frequency:	2.4 GHz
-Connectivity Technology:	Wireless, Ethernet
-Operating System:	OpenWrt
-Number of Ports:	2
-Data Transfer Rate:	300 Megabytes Per Second
+Type: Travel Router<br />
+Brand:	GL.iNet<br />
+Model Name:	GL-MT300N-V2<br />
+Wireless Communication Standard:	802.11n<br />
+Compatible Devices:	Laptop<br />
+Frequency:	2.4 GHz<br />
+Connectivity Technology:	Wireless, Ethernet<br />
+Operating System:	OpenWrt<br />
+Number of Ports:	2<br />
+Data Transfer Rate:	300 Megabytes Per Second<br />
 
 **Device information**
-Brand:	Raspberry
-Ram Memory Installed Size:	2 GB
-Memory Storage Capacity:	2 GB
-CPU Model:	Cortex
-Connectivity Technology:	Bluetooth, Wi-Fi, USB, Ethernet, HDMI, GPIO
-Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1. 5GHz
-2. 4 GHz and 5. 0 GHz IEEE 802. 11b/g/n/ac wireless LAN, Bluetooth 5. 0, BLE
-2 × USB 3. 0 ports, 2 x USB 2. 0 Ports
-2 × micro HDMI ports supproting up to 4Kp60 video resolution
-Micro SD card slot for loading operating system and data storage
+Brand:	Raspberry<br />
+Ram Memory Installed Size:	2 GB<br />
+Memory Storage Capacity:	2 GB<br />
+CPU Model:	Cortex<br />
+Connectivity Technology:	Bluetooth, Wi-Fi, USB, Ethernet, HDMI, GPIO<br />
+Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1. 5GHz<br />
+2. 4 GHz and 5. 0 GHz IEEE 802. 11b/g/n/ac wireless LAN, Bluetooth 5. 0, BLE<br />
+2 × USB 3. 0 ports, 2 x USB 2. 0 Ports<br />
+2 × micro HDMI ports supproting up to 4Kp60 video resolution<br />
+Micro SD card slot for loading operating system and data storage<br />
 
 **Steps to set up DietPI image on Raspberry PI**
 
 1. Download the below before class:
-  1. BreeZip extractor as I have a windows laptop.
-  2. BalenaEtcher
-  3. DietPI ARMv8 64-bit image using the download link:
+  &nbspi) BreeZip extractor as I have a windows laptop.
+  &nbspii) BalenaEtcher
+  &nbspiii) DietPI ARMv8 64-bit image using the download link:
   https://dietpi.com/downloads/images/DietPi_RPi-ARMv8-Bullseye.7z
 
 2. Extract the DietPi_RPi-ARMv8-Bullseye.7z using BreeZip extractor.
