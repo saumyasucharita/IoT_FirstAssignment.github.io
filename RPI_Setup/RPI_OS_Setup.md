@@ -90,12 +90,12 @@ Challenges:
 I am using a 64 GB micro SD card. I was a little apprehensive if the 64 GB SD would work or not because as per Professor’s prerequisite, 
 the maximum being used is 32 GB. But I was successfully able to install the dietPi using the 64 GB card.
 
-Blog comments:
-Here is the link to my blog for Raspberry Pi set up:
-https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135917005487
+Blog comments:<br/>
+Here is the link to my blog for Raspberry Pi set up:<br/>
+https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135917005487<br/>
 
-I was able to help few other students through my screenhots included in the blog. The links to comments are:
-https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135919937471
+I was able to help few other students through my screenhots included in the blog. The links to comments are:<br/>
+https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135919937471<br/>
 
 https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135918693094
 
