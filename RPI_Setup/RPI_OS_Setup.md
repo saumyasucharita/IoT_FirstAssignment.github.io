@@ -80,7 +80,9 @@ Micro SD card slot for loading operating system and data storage<br />
 ![Installing updates](/RPI_Setup/image/Update_installs.png)<br/>
 14. Log in once again into the PI. This time you will be able to change the default password for ‘root’ and ‘dietpi’ users.<br/>
 ![password_reset](/RPI_Setup/image/Password_reset.png)<br/>
+Diet PI Config Menu<br/>
 ![SSHConnectionDietPI](/RPI_Setup/image/SSHConnectionDietPI.png)<br/>
+Succesful connection established<br/>
 ![successful](/RPI_Setup/image/ConnectionSuccessful.png)
 
 Challenges:
