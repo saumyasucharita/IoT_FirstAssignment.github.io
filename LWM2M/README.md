@@ -53,6 +53,9 @@ I executed the leshan client jar file and then checked the UI page again. I coul
 ![RegisteredClientLeshan](/LWM2M/image/RegisteredClientLeshan.png)<br/>
 Finally, used Ctlr-C to stop the Leshan client.<br/>
 
+**Blog link:**<br/>
+https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135922738852<br/>
+
 **Overview of an additional experiment of the LWM2M**<br/>
 Test the bootstrap service 
 
