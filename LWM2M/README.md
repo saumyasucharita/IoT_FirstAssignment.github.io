@@ -89,9 +89,9 @@ $ git clone https://github.com/zephyrproject-rtos/net-tools<br/>
 3. dietpi@DietPi:~/net-tools$ make<br/>
 The command threw the below error:<br/>
 /bin/sh: 1: pkg-config: not found<br/>
-
-4. dietpi@DietPi:~/net-tools$ sudo apt-get update -y<br/>
-dietpi@DietPi:~/net-tools$ sudo apt-get install -y autoconf-archive<br/>
+fatal error: glib.h: No such file or directory<br/>
+4. $sudo apt-get update -y<br/>
+$sudo apt-get install -y autoconf-archive<br/>
 5.$sudo apt-get install libglib2.0-dev<br/>
 $sudo apt-get install libpcap0.8-devY<br/>
 $sudo apt-get install libtool<br/>
