@@ -54,16 +54,18 @@ I executed the leshan client jar file and then checked the UI page again. I coul
 Finally, used Ctlr-C to stop the Leshan client.<br/>
 
 **Overview of an additional experiment of the LWM2M**<br/>
-1. Test the bootstrap service 
+Test the bootstrap service 
 
-1.Start the bootstrap server using:<br/>
-cd ~/projects/leshan<br/>
-$java -jar leshan-bsserver-demo/target/leshan-bsserver-demo-2.0.0-SNAPSHOT-jar-with-dependencies.jar<br/>
-![Bootstrap_start_log](/LWM2M/image/Bootstrap_start_log.JPG)<br/>
-2. Access the bootstrap server UI at:<br/>
-http://192.168.8.229:8080/#/bootstrap<br/>
-![BootstrapUI](/LWM2M/image/BootstrapUI.png)<br/>
-You can copy the server URL, Server Public key and server certificate from the server tab of this page.<br/>
-![Bootstrap_server_details](/LWM2M/image/Bootstrap_server_details.png)<br/>
+  1. Start the bootstrap server using:<br/>
+  cd ~/projects/leshan<br/>
+  $java -jar leshan-bsserver-demo/target/leshan-bsserver-demo-2.0.0-SNAPSHOT-jar-with-dependencies.jar<br/>
+  ![Bootstrap_start_log](/LWM2M/image/Bootstrap_start_log.JPG)<br/>
+
+  2. Access the bootstrap server UI at:<br/>
+  http://192.168.8.229:8080/#/bootstrap<br/>
+  ![BootstrapUI](/LWM2M/image/BootstrapUI.png)<br/>
+  
+  You can copy the server URL, Server Public key and server certificate from the server tab of this page.<br/>
+  ![Bootstrap_server_details](/LWM2M/image/Bootstrap_server_details.png)<br/>
 
 
