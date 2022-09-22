@@ -80,7 +80,7 @@ https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/connectivity/
 
 But I was unable to perform the Step-3(Start app in QEMU) in the Networking with QEMU page. <br/>
 Also before reaching that step there were a lot of dependent softwares which needed to be installed.<br/>
-I am unaware of what each command did. Therefore, I could not succeed in testing the client code.<br/>
+I am unaware of what each command does. Therefore, I could not succeed in testing the client code.<br/>
 
 Commands I used:<br/>
 1. I cloned the Zephyr project from github using:<br/>
