@@ -71,4 +71,35 @@ Test the bootstrap service
   You can copy the server URL, Server Public key and server certificate from the server tab of this page.<br/>
   ![Bootstrap_server_details](/LWM2M/image/Bootstrap_server_details.png)<br/>
 
+Different types of lwm2m client code testing<br/>
+
+I tried installing Zephyr project lwm2m following the instructions at below page:<br/>
+https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/samples/net/lwm2m_client/README.html<br/>
+https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/connectivity/networking/qemu_setup.html#networking-with-qemu<br/>
+(Networking with QEMU)<br/>
+
+But I was unable to perform the Step-3(Start app in QEMU) in the Networking with QEMU page. <br/>
+Also before reaching that step there were a lot of dependent softwares which needed to be installed.<br/>
+I am unaware of what each command did. Therefore, I could not succeed in testing the client code.<br/>
+
+Commands I used:<br/>
+1. I cloned the Zephyr project from github using:<br/>
+$ git clone https://github.com/zephyrproject-rtos/net-tools<br/>
+2. $ cd net-tools<br/>
+3. dietpi@DietPi:~/net-tools$ make<br/>
+The command threw the below error:<br/>
+/bin/sh: 1: pkg-config: not found<br/>
+monitor_15_4.c:33:10: fatal error: glib.h: No such file or directory<br/>
+   33 | #include <glib.h><br/>
+      |          ^~~~~~~~
+4.dietpi@DietPi:~/net-tools$ sudo apt-get update -y<br/>
+dietpi@DietPi:~/net-tools$ sudo apt-get install -y autoconf-archive<br/>
+5.$sudo apt-get install libglib2.0-dev<br/>
+$sudo apt-get install libpcap0.8-devY<br/>
+$sudo apt-get install libtool<br/>
+$sudo apt-get -y install socat<br/>
+6.$pip3 install --user -U west
+$echo 'export PATH=~/.local/bin:"$PATH"' >> ~/.bashrc<br/>
+$source ~/.bashrc<br/>
+7.$west init ~/zephyrproject<br/>
 
