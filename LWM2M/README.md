@@ -1,6 +1,6 @@
 **Installing Leshan Server/Client on Raspberry Pi**
 
-**Reference:**
+**Reference:**<br/>
 https://github.com/pschragger/IOT_Tutorials_for_VU/tree/main/RPI_DEVICE_MANAGEMENT_INSTALL_tutorial
 
 **Tell what you did differently from the explanation.**
@@ -19,10 +19,10 @@ When I checked if I had successfully installed maven, it said ‘mvn’ command 
 Professor Schragger pointed out that I was trying to install maven through the root user.<br/> 
 He rectified the mistake by changing the ownership of the download folder to the dietpi user:<br/>
 
-**sudo chown -R dietpi download**<br/>
+**$sudo chown -R dietpi download**<br/>
 
+![Changing_ownership](/LWM2M/image/Changing_ownership.png)<br/>
 After which, I was able to check the version of maven installed.<br/>
-![DietPIonRoutersAdmin](/RPI_Setup/image/DietPIonRoutersAdmin.png)<br/>
 
 $mvn -v<br/>
 Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
@@ -32,11 +32,12 @@ Default locale: en_US, platform encoding: UTF-8
 OS name: "linux", version: "5.15.61-v8+", arch: "aarch64", family: "unix"
 
 Then I followed the instructions to add the 'PATH' and 'JAVA_HOME' variables in bashrc configuration file.<br/>
-echo 'PATH="${PATH}:~/download/apache-maven-3.8.6/bin"' >> ~/.bashrc
+echo 'PATH="${PATH}:~/download/apache-maven-3.8.6/bin"' >> ~/.bashrc<br/>
 $sudo echo 'JAVA_HOME="/usr/lib/jvm/java-17-openjdk-arm64"' >> ~/.bashrc<br/>
 
 I created a projects directory and then cloned leshan repo using git command. <br/>
 I built the leshan project using maven. The build took around 22 minutes for me.<br/>
+![LeshanBuildSuccess](/LWM2M/image/LeshanBuildSuccess.png)<br/>
 I started the leshan server using:<br/>
 
 $java -jar leshan-server-demo/target/leshan-server-demo-*-SNAPSHOT-jar-with-dependencies.jar &<br/>
@@ -46,21 +47,23 @@ http://192.168.8.229:8080<br/>
 
 
 I could see that there were no registered clients on the UI.<br/><br/>
-![DietPIonRoutersAdmin](/RPI_Setup/image/DietPIonRoutersAdmin.png)<br/>
+![NoClientLeshan](/LWM2M/image/NoClientLeshan.png)<br/>
+
 I executed the leshan client jar file and then checked the UI page again. I could see the DietPi as a registered client.<br/>
-![DietPIonRoutersAdmin](/RPI_Setup/image/DietPIonRoutersAdmin.png)<br/>
+![RegisteredClientLeshan](/LWM2M/image/RegisteredClientLeshan.png)<br/>
 Finally, used Ctlr-C to stop the Leshan client.<br/>
 
-**Overview of an additional experiment of the LWM2M**
-**1. Test the bootstrap service **
+**Overview of an additional experiment of the LWM2M**<br/>
+1. Test the bootstrap service 
 
 1.Start the bootstrap server using:<br/>
 cd ~/projects/leshan<br/>
 $java -jar leshan-bsserver-demo/target/leshan-bsserver-demo-2.0.0-SNAPSHOT-jar-with-dependencies.jar<br/>
+![Bootstrap_start_log](/LWM2M/image/Bootstrap_start_log.JPG)<br/>
 2. Access the bootstrap server UI at:<br/>
 http://192.168.8.229:8080/#/bootstrap<br/>
-![DietPIonRoutersAdmin](/RPI_Setup/image/DietPIonRoutersAdmin.png)<br/>
+![BootstrapUI](/LWM2M/image/BootstrapUI.png)<br/>
 You can copy the server URL, Server Public key and server certificate from the server tab of this page.<br/>
-![DietPIonRoutersAdmin](/RPI_Setup/image/DietPIonRoutersAdmin.png)<br/>
+![Bootstrap_server_details](/LWM2M/image/Bootstrap_server_details.png)<br/>
 
 
