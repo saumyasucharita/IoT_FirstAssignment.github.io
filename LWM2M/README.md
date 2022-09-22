@@ -71,7 +71,7 @@ Test the bootstrap service
   You can copy the server URL, Server Public key and server certificate from the server tab of this page.<br/>
   ![Bootstrap_server_details](/LWM2M/image/Bootstrap_server_details.png)<br/>
 
-Different types of lwm2m client code testing<br/>
+**Different types of lwm2m client code testing**<br/>
 
 I tried installing Zephyr project lwm2m following the instructions at below page:<br/>
 https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/samples/net/lwm2m_client/README.html<br/>
@@ -91,7 +91,6 @@ The command threw the below error:<br/>
 /bin/sh: 1: pkg-config: not found<br/>
 monitor_15_4.c:33:10: fatal error: glib.h: No such file or directory<br/>
    33 | #include <glib.h><br/>
-      |          ^~~~~~~~
 4.dietpi@DietPi:~/net-tools$ sudo apt-get update -y<br/>
 dietpi@DietPi:~/net-tools$ sudo apt-get install -y autoconf-archive<br/>
 5.$sudo apt-get install libglib2.0-dev<br/>
@@ -103,3 +102,4 @@ $echo 'export PATH=~/.local/bin:"$PATH"' >> ~/.bashrc<br/>
 $source ~/.bashrc<br/>
 7.$west init ~/zephyrproject<br/>
 
+![FailedAttempt](/LWM2M/image/FailedAttempt.png)<br/>
