@@ -46,6 +46,9 @@ https://dl.espressif.com/dl/package_esp32_index.json<br/>
 9. You can see the temperature and humidity readings in the Serial Monitor.<br/>
 ![Final_Output](/ANALOG_Device_Tutorials/image/Output.png)<br/>
 
+**Blog Link:**<br/>
+https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135929245032
+
 **References:**<br/>
 
 https://randomnerdtutorials.com/solved-arduino-ide-esp32-esp8266-installation/<br/>
