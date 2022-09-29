@@ -15,7 +15,7 @@ manufacture and test). This pin should not be connected to any of the circuit co
 
 **Circuit diagram of Pi to DHT11 sensor**
 ![Operational_Circuit_Pi](/ANALOG_Device_Tutorials/image/Operational_Circuit_Pi.jpeg)<br/>
-![CircuitDiagram_ from_ pi to_ sensor](/ANALOG_Device_Tutorials/image/CircuitDiagram_from_pi_to_ sensor.JPG)<br/>
+![CircuitDiagram2](/ANALOG_Device_Tutorials/image/CircuitDiagram2.JPG)<br/>
 ![Raspberry_Pi_Pins](/ANALOG_Device_Tutorials/image/Raspberry_Pi_Pins.JPG)<br/>
 
 **Software snippet showing GPIO setup and runtime looping and temperature reading and writing results to output**
