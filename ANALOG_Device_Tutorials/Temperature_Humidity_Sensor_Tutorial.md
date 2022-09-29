@@ -87,6 +87,9 @@ $git clone https://github.com/WiringPi/WiringPi.git<br/>
 **Blog Link:**<br/>
 https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135932489441<br/>
 
+**Alternate Tutorial:**<br/>
+[ArduinoIDE](/ANALOG_Device_Tutorials/ArduinoIDE.md)<br/>
+
 **References:**<br/>
 https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/<br/>
 https://computing-sciences.yellowdig.app/community/62e2eacc-366d-319c-a96d-cf1e0b1d27ef?postId=47424135931403193<br/>
