@@ -34,7 +34,7 @@ i) Navigate to Board options --> <br/>
 Set the Device manufacturer as 'Espressif'<br/>
 Set the Model number as 'ESP-WROVER-KIT'<br/>
 Select the 'Push button enabled'<br/>
-Set the push button pin to 13.<br/>
+Set the push button pin to 13 as per the circuit diagram.<br/>
 ![PushButton_Board_options](/Anjay-esp32-client/image/PushButton_Board_options.JPG)<br/>
 
 ii) Navigate to Client options --><br/>
