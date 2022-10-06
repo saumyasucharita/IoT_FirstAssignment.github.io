@@ -1,17 +1,17 @@
 **Push Button Tutorial using Anjay ESP-32 LwM2M client**
 
 **Circuit Diagram**<br/>
-This type of push button switch has 4 pins (2 Pole Switch). Two pins on the left are connected, and both left
-and right sides are the same per the diagram:
+This type of push button switch has 4 pins (2 Pole Switch). Two pins on the left are connected, and both left<br/>
+and right sides are the same per the diagram:<br/>
 ![PushButton_component](/Anjay-esp32-client/image/PushButton_component.JPG)<br/>
-When the button on the switch is pressed, the circuit is completed (your project is powered ON).
-(Referencd from C_Tutorial of Freenove Ultimate Starter Kit)
+When the button on the switch is pressed, the circuit is completed (your project is powered ON).<br/>
+(Referencd from C_Tutorial of Freenove Ultimate Starter Kit)<br/>
 
 Working circuit connections:<br/>
 1. Connect the terminal 1 of push button to a 10 kilo ohm resistor.<br/>
-2. Connect the other end of resistor to GPIO pin 13.<br/>
+2. Connect the other end of resistor to GPIO pin 13 using a jumper cable.<br/>
 3. Connect the other side of terminal 1 of push button to another 10 kilo ohm resistor which is connected to 3.3 V power supply.
-4. Connect terminal 2 of push button to the Ground.
+4. Connect terminal 2 of push button to the Ground using a jumper cable.
 ![Circuit_Diagram_Push_Button](/Anjay-esp32-client/image/Circuit_Diagram_Push_Button.jpeg)<br/>
 
 **Configuration changes needed:**
@@ -33,11 +33,10 @@ $idf.py menuconfig<br/>
 i) Navigate to Board options --> <br/>
 Set the Device manufacturer as 'Espressif'<br/>
 Set the Model number as 'ESP-WROVER-KIT'<br/>
-Select the 'Light control enabled'<br/>
+Select the 'Push button enabled'<br/>
+Set the push button pin to 13.<br/>
 ![PushButton_Board_options](/Anjay-esp32-client/image/PushButton_Board_options.JPG)<br/>
-Enter Light control options: Select 'Enable red color'<br/>
-Set the Red color pin as 2.<br/>
-![Light_control_options](/Anjay-esp32-client/image/Light_control_options.JPG)<br/>
+
 ii) Navigate to Client options --><br/>
 Change Server URI to coap://192.168.8.229:5683.<br/>
 Change 'Choose security mode' to 'Non-secure connection'.<br/>
@@ -58,10 +57,11 @@ $sudo chmod 666 /dev/ttyUSB0<br/>
 $idf.py -p 0 flash<br/>
 10. Check the leshan server dashboard for the registration of the anjay-esp32-client.<br/>
 ![Anjay-esp32-client](/Anjay-esp32-client/image/Anjay-esp32-client.JPG)<br/>
-11. Go to the Light control tab.<br/>
-Click on the write('W') option for On/Off operation and enter the boolean value to 'true'.<br/>
-Click on the write('W') option for Dimmer and enter an integer value from 0 to 100. For example, enter 20.<br/>
+11. Go to the Push Button tab.<br/>
+Press the push button multiple times.<br/>
+Click on the read('R') option for Digital Input State. You can see the value as false.<br/>
+Click on the read('R') option for Digital Input Counter. You can see the number of times you have pressed the push button.<br/>
 ![PushButton_Output](/Anjay-esp32-client/image/PushButton_Output.JPG)<br/>
-You can see the LED turned on now.<br/>
+
 
 
