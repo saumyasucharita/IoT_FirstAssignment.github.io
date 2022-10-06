@@ -18,6 +18,9 @@ resistor with a specified resistance value must be connected in series to the LE
 ![Schematic_Diagram](/Anjay-esp32-client/image/Schematic_Diagram.JPG)<br/>
 ![Hardware_Connection](/Anjay-esp32-client/image/Hardware_Connection.JPG)<br/>
 Working circuit connections:<br/>
+1. Connect the longer pin of LED(+) to a 220 ohm resistor.<br/>
+2. Connect the other end of resistor to GPIO pin 2.<br/>
+3. The - ve pin of LED is connected to Ground.<br/>
 ![Circuit_Diagram_Light_Control](/Anjay-esp32-client/image/Circuit_Diagram_Light_Control.jpeg)<br/>
 
 **Configuration changes needed:**
